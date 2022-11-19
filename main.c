@@ -21,7 +21,8 @@ int main(int ac, char **av)
         func_flag_l_basic(ac, av);
     }
     if (av[1][0] == '-' && av[1][1] == 'l' && ac == 3) {
-        func_flag_l_directory(ac, av);
+//        func_flag_l_directory(ac, av);
+        return 0;
     }
     func_find_flag(ac, av);
     return 0;
