@@ -14,7 +14,7 @@
 
 <p align="center"><img src=".github/assets/term-my_ls.png" alt="my_ls" width="820"/></p>
 
-## En deux mots
+## Le projet en quelques mots
 
 Une version de `ls` écrite avec `opendir`, `readdir` et `stat`.
 
@@ -23,10 +23,6 @@ Une version de `ls` écrite avec `opendir`, `readdir` et `stat`.
 - Listing du dossier courant ou d'un chemin
 - `-a` : fichiers cachés
 - `-l` : permissions, liens, propriétaire, groupe, taille, date
-
-## Sous le capot
-
-On lit le dossier avec `readdir`, puis pour le format long on appelle `stat` sur chaque entrée, et `getpwuid` / `getgrgid` pour le propriétaire et le groupe.
 
 ## Lancer le projet
 
